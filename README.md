@@ -1,13 +1,3 @@
----
-sidebar_position: 2
----
-# YOLO
-
-```mdx-code-block
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-```
-
 ## Introduction
 
 YOLO detection algorithm example uses images as input, performs algorithm inference using BPU, and publishes algorithm messages containing object categories and detection boxes. Currently, it supports four versions: yolov2, yolov3, yolov5, and yolov5x.
@@ -160,7 +150,7 @@ The log shows that the topic for publishing the inference results is `hobot_dnn_
 
 You can view the image and algorithm rendering effects by entering http://IP:8000 in the browser on the PC (where IP is the IP address of the RDK):
 
-![render_web](/../static/img/05_Robot_development/03_boxs/detection/image/box_basic/yolov2_render_web.jpeg)
+![render_web](imgs/yolov2_render_web.jpeg)
 
 ### Use Local Data Offline
 
