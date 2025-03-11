@@ -1,0 +1,1 @@
+# nodehub_yolo11_object_detection
